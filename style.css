@@ -1,20 +1,21 @@
 .box {
-    width: 75px;
-    height: 75px;
-    border: solid;
+    /* width: 75px;
+    height: 75px; */
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .row {
     display: flex;
-    gap: 10px;
 }
 
 .hover {
     background-color: green;
+}
+
+body {
+    margin: 0px;
 }
